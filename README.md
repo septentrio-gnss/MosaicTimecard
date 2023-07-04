@@ -1,2 +1,2 @@
-# Mosaic-T TimeCard
+# Mosaic-TimeCard
 
