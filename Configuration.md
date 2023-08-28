@@ -1,4 +1,4 @@
-# Configuration Mosaic-Timecard
+# Configuration
 
 <!-- 
 
@@ -14,8 +14,8 @@
 
 ---
 
-## Connect to Mosaic
-### Over USB
+## How to connect to the Mosaic
+### Using USB
 ##### Windows
 The Windows USB driver provided with your receiver emulates two virtual serial ports, which
 can be used as standard COM ports to access the receiver. 
@@ -29,7 +29,7 @@ This drive contains an installer for the USB driver. Running this installer is n
 When connecting to a linux computer no USB drivers need to be installed manually. 
 The standard CDC-ACM is suitable.
 
-### Ethernet over USB
+### Using Ethernet over USB
 
 When an USB cable is connected, the receiver supports Ethernet-over-USB. The IP address
 allocated to the Ethernet-over-USB interface is 192.168.3.1. That address cannot be
