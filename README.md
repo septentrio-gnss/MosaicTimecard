@@ -47,6 +47,11 @@ Once the PPS signal has passed through the oscillator this signal is exposed usi
 connectors on the Timecard.
 
 ---
+### How to produce the Time Card and Mosaic RCB
 [Production](Production.md)  
+
+### How to configure the Time Card and Mosaic
 [configuration](Configuration.md)  
+
+### How to use the Time Card
 [Application](Application.md)
