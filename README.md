@@ -12,18 +12,18 @@
 -->
 
 ---
-## What is the Time Card
-The Time Card is the heart of the [Open Time Server](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Open-Time-Server/) project.
+## What is the Timecard
+The Timecard is the heart of the [Open Time Server](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Open-Time-Server/) project.
 
 Accurate timing is a critical part of a PTP enabled network. 
 The Time Card provides this via GNSS while maintaining accuracy in case of GNSS signal loss or failure by using a high stability and holdover oscillator.
 The Time Card project was created to provide a open source solution via a PCIe card.
 
-## How the Time Card is used
+## How the Timecard is used
 The Timecard can generally be used in 2 ways: Standalone and in a Full System.
 In using the Timecard as standalone, you only need the Timecard and a device
 with PCIe capabilities. 
-You now have the option to retrieve a PHC (Physical Hwardware Clock) time which can be set for system time.
+You now have the option to retrieve a PHC (Physical Hardware Clock) time which can be set for system time.
 This is done over PCIe where the Timecard shows up as a device.
 For PPS output this is available over the U.FL connectors on the Timecard and can be used as needed.
  
@@ -47,11 +47,11 @@ Once the PPS signal has passed through the oscillator this signal is exposed usi
 connectors on the Timecard.
 
 ---
-### How to produce the Time Card and Mosaic RCB
+### How to produce the Timecard and Mosaic RCB
 [Production](Production.md)  
 
-### How to configure the Time Card and Mosaic
+### How to configure the Timecard and Mosaic
 [configuration](Configuration.md)  
 
-### How to use the Time Card
+### How to use the Timecard
 [Application](Application.md)
