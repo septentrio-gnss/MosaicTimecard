@@ -7,7 +7,14 @@
 
 -->
 
----
+## Time Card production
+To produce the Time Card without the GNSS RCB yourself all the necessary code, BOM, Gerber files and binaries are available on the [official github](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Time-Card/HW)
+Videos are provided by the Open Compute Project which explain the step by step process.
+[Order Time Card Baseboard](https://www.youtube.com/watch?v=qPRaQU9TBTw)
+[Order Time Card Accessories](https://www.youtube.com/watch?v=4X3i5tge4S4)
+
+The files to produce the Mosaic RCB are found in the [Hardware folder](/Hardware)
+
 ## Clock reference
 ### Internal clock
 To use the internal clock referenced provided by the Mosaic's TXCO.
