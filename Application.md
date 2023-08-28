@@ -1,4 +1,4 @@
-# Application Mosaic-Timecard
+# Application
 
 <!-- 
 
@@ -7,6 +7,7 @@ https://opencomputeproject.github.io/Time-Appliance-Project/docs/time-card/usage
 -->
 
 ---
+## How to use the Time Card
 The Time Card is interfaced via `sysfs`.
 
 ### Sysfs
