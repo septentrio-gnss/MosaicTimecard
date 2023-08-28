@@ -55,7 +55,7 @@ connectors on the Timecard.
 [Production](Production.md)  
 
 ### How to configure the Timecard and Mosaic
-[configuration](Configuration.md)  
+[Configuration](Configuration.md)  
 
 ### How to use the Timecard
 [Application](Application.md)
