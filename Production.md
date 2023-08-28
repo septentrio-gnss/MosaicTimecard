@@ -7,7 +7,7 @@
 
 -->
 
-## Time Card production
+## How to produce the Time Card
 To produce the Time Card without the GNSS RCB yourself all the necessary code, BOM, Gerber files and binaries are available on the [official github](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Time-Card/HW)
 Videos are provided by the Open Compute Project which explain the step by step process.
 [Order Time Card Baseboard](https://www.youtube.com/watch?v=qPRaQU9TBTw)
