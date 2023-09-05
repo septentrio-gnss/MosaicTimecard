@@ -44,10 +44,11 @@ The software running on the device takes this input and converts it onto PTP (Pr
 Which in turn can be used to synchronise devices on the network.
 
 ## Purpose of the Mosaic RCB
-The Receiver Carrier Board (RCB) is a GNSS receiver board that provides PPS output and the TOD to
+The Receiver Carrier Board (RCB) is a GNSS receiver board that provides PPS output and the TOD (Time of Day) to
 the Time Card. The RCB board integrates mosaic-T bringing the value of resilience and accuracy to the timing community.
 
-The mosaic-T can be available on two RCB form factors: an M.2 (RCB) or in a traditional RCB form factor (well standarized by OCP-TAP).
+The mosaic-T is available in two RCB form factors: an M.2 (RCB) or in a traditional RCB form factor (well standarized by OCP-TAP).
+This project mainly documents the design with the traditional RCB form factor.
 This receiver carrier board provides PPS output coming from GNSS satellites. 
 The route of this PPS signal originates from the Mosaic-T, then goes into the FPGA which does some filtering and correction.
 This in turn becomes an input for the oscillator. 
@@ -73,6 +74,9 @@ each new product or revision.
 
 ### What is the mosaic module?
 #### mosaic-T
+<p align="center">
+  <img width="50%" src="Assets/mosaict.png">
+</p>
 
 <a href="https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-t">Septentrio's mosaic-T</a>, multi-band, multi-constellation GNSS timing receiver design specifically for providing the highest security and availability for mission critical infrastructure and other resilient timing applications.
 The mosaic-T is a low power surface mount module with a wide array of interfaces and dedicated timing inputs for time and frequency synchronization. It offers superior availability by tracking all Global Navigation Satellite System constellations (GNSS) and their current and future signals.
@@ -85,6 +89,17 @@ With optional AtomiChronTMservices, mosaic-T is providing 4 constellation NMA fo
 
 ### mosaic-T Resilience
 The mosaic-T features AIM+ Advanced Interference Monitoring and Mitigation, offering built-in protection against intentional and unintentional jamming and spoofing using a sophisticated system of sampling and mitigation mechanisms. The stationary nature of critical infrastructure makes it vulnerable to jamming or even to spoofing attacks. Jamming occurs when GPS signals are overpowered by illegal devices called “jammers”, which could for example be used in passing by vehicles to avoid road tolling. Spoofing is a malicious form of jamming where an attacker sends fake signals into the receivers. AIM+ offers protection against both jamming and spoofing for robust and resilient timing in any environment.
+
+You can find more information on Septentrio's resilience values here <a href="https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-resilient-and-secure-gnss/gps-receivers">Septentrio Resilience</a>
+
+### AtomiChron service
+The mosaic-T is one of the most resilients modules by itself however in addition it also supports <a href="https://web.septentrio.com/Fg-Atomichron">Fugro AtomiChron™ service</a> - a global, real-time, precise clock synchronization and authentication service for the most critical applications that require resilient, accurate and reliable time and frequency.  
+
+Numerous sectors and critical infrastructure rely on resilient and highly accurate time synchronisation, including data centers, finance, energy, and telecommunications. This innovative technology eliminates time drift caused by clocks counting time at slightly different rates and provides extreme stability that surpasses current precision frequency standards.
+
+With up to sub-nanosecond accuracy, Fugro AtomiChron™ includes Navigation Message Authentication (NMA), ensuring reception of genuine GNSS signals and time synchronisation improvements. Integrated anti-spoofing detection further prevents interference with GNSS timing signals providing accuracy, authentication, validity and security for end-users.
+
+You can find more information about ATomiChron service here <a href="https://web.septentrio.com/Fg-Atomichron">https://web.septentrio.com/Fg-Atomichron</a>
 
 #### Other mosaic versions
 Any <a href="https://web.septentrio.com/GH-SSN-modules c">other mosaic pin compatible products</a> could also be used on this design, however you would need to take into consideration the functions or pins which would need to exposed and then modify the design for your own project. Surely feel free to spin of the project and refer to this one should you make other open source designs based on this open source project.
