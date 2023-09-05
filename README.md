@@ -23,6 +23,9 @@ Accurate timing is a critical part of a PTP enabled network.
 The Time Card provides this via GNSS while maintaining accuracy in case of GNSS signal loss or failure by using a high stability and holdover oscillator.
 The Time Card project was created to provide a open source solution via a PCIe card.
 
+This open source project allows time synch experts to benefit from the accurate and resilient mosaic-T (GNSS module) from Septentrio when using or integrating the Timecard.
+The open source project is fully developed by OCP-TAP however this page only provides a high level overview of the integration with mosaic-T.
+
 ## How the Timecard is used
 The Timecard can generally be used in 2 ways: Standalone and in a Full System.
 In using the Timecard as standalone, you only need the Timecard and a device
