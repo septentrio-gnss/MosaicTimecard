@@ -75,7 +75,7 @@ each new product or revision.
 ### What is the mosaic module?
 #### mosaic-T
 <p align="center">
-  <img width="50%" src="Assets/mosaict.png">
+  <img width="50%" src="Assets/mosaic-T.png">
 </p>
 
 <a href="https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-t">Septentrio's mosaic-T</a>, multi-band, multi-constellation GNSS timing receiver design specifically for providing the highest security and availability for mission critical infrastructure and other resilient timing applications.
