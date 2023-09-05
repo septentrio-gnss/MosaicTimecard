@@ -65,7 +65,7 @@ focus on creating new components rather than iterating on the Time Servers, Time
 each new product or revision.
 
 <p align="center">
-  <img width="40%" src="Assets/RCB_mosaic.jpg">
+  <img width="50%" src="Assets/RCB_timecard.jpg">
 </p>
 
 ### What is the mosaic module?
@@ -75,6 +75,10 @@ each new product or revision.
 The mosaic-T is a low power surface mount module with a wide array of interfaces and dedicated timing inputs for time and frequency synchronization. It offers superior availability by tracking all Global Navigation Satellite System constellations (GNSS) and their current and future signals.
 With unique built-in AIM+ technology for anti-jamming, anti-spoofing, interference mitigation Septentrio offers a highly resilient and precise timing receiver in a very small form factor.
 With optional AtomiChronTMservices, mosaic-T is providing 4 constellation NMA for superior anti-spoofing and precise timing reaching sub nanosecond precision.
+
+<p align="center">
+  <img width="50%" src="Assets/RCB_mosaic.jpg">
+</p>
 
 ### mosaic-T Resilience
 The mosaic-T features AIM+ Advanced Interference Monitoring and Mitigation, offering built-in protection against intentional and unintentional jamming and spoofing using a sophisticated system of sampling and mitigation mechanisms. The stationary nature of critical infrastructure makes it vulnerable to jamming or even to spoofing attacks. Jamming occurs when GPS signals are overpowered by illegal devices called “jammers”, which could for example be used in passing by vehicles to avoid road tolling. Spoofing is a malicious form of jamming where an attacker sends fake signals into the receivers. AIM+ offers protection against both jamming and spoofing for robust and resilient timing in any environment.
