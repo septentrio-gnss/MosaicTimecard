@@ -65,7 +65,7 @@ focus on creating new components rather than iterating on the Time Servers, Time
 each new product or revision.
 
 <p align="center">
-  <img width="20%" src="Assets/RCB_mosaic.jpg">
+  <img width="40%" src="Assets/RCB_mosaic.jpg">
 </p>
 
 ### What is the mosaic module?
